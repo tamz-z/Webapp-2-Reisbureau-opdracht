@@ -1,35 +1,61 @@
-body {
-    padding: 0;
-    margin: 0;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap');
 
-.navbar {
-    background-color: #333;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Sen', sans-serif;
+ }
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+ body {
+     overflow-x: hidden;
+     margin: 0;
+     /* Added to reset default body margin */
+ }
 
-.navbar li {
-    float: left;
-}
+ .header {
+     /* Removed fixed position */
+     width: 100%;
+     background: #ffffff;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 100;
+     position: fixed;
+     /* Added position fixed to keep header at top */
+     top: 0;
+     /* Added top to keep header at top */
+ }
 
-.navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+ .navbar {
+     text-align: right;
+     flex-grow: 1;
+     background: #ffffff;
+     /* Added background color */
+ }
 
-.navbar li a:hover {
-    background-color: #555;
-}
+ .navbar a {
+     font-size: 25px;
+     color: #3B8296;
+     text-decoration: none;
+     padding-left: 70px;
+     font-family: 'Sen', sans-serif;
+ }
 
-.error {
-    color: red;
-}
+ .header-text {
+     font-size: 20px;
+     color: white;
+     font-family: 'Khand', sans-serif;
+     font-weight: bold;
+     position: relative;
+     top: -750px;
+     left: 550px;
+ }
+
+ .logo {
+     width: 110px;
+     position: relative;
+     right: 500px;
+     top: 30px;
+ }

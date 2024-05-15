@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepagina Reisbureau</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <title>Reisbureau Front Page</title>
 </head>
+
 <body>
-<div class="navbar">
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="aboutcontact.php">About Us</a></li>
-        <li><a href="#services">Services & Contact</a></li>
-    </ul>
-</div>
-<img src="assets/beachvilla.jpg" class="villa">
+    <header class="header">
+        <nav class="navbar">
+            <img src="assets/vistalogo.png" class="logo">
+            <a href="index.php">Home</a>
+            <a href="over.php">Over Ons</a>
+            <a href="contact.php">Contact</a>
+            <a href="faq.php">Veelgestelde Vragen<a>
+        </nav>
+    </header>
+    <img src="assets/beachvilla.jpg">
+    <div class="header-text">
+        <h2>Grab the deal & make it real!</h2>
+        <h1>Nieuw bij Agent Vista</h1>
+    </div>
+
 
 
 
 </body>
+
 </html>

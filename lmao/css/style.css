@@ -1,61 +1,81 @@
- @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
- * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     font-family: 'Sen', sans-serif;
- }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
 
- body {
-     overflow-x: hidden;
-     margin: 0;
-     /* Added to reset default body margin */
- }
 
- .header {
-     /* Removed fixed position */
-     width: 100%;
-     background: #ffffff;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     z-index: 100;
-     position: fixed;
-     /* Added position fixed to keep header at top */
-     top: 0;
-     /* Added top to keep header at top */
- }
 
- .navbar {
-     text-align: right;
-     flex-grow: 1;
-     background: #ffffff;
-     /* Added background color */
- }
+.header {
+    background-color: white;
+    padding: 10px 0;
+}
 
- .navbar a {
-     font-size: 25px;
-     color: #3B8296;
-     text-decoration: none;
-     padding-left: 70px;
-     font-family: 'Sen', sans-serif;
- }
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #368296;
+    height: 70px;
+}
 
- .header-text {
-     font-size: 20px;
-     color: white;
-     font-family: 'Khand', sans-serif;
-     font-weight: bold;
-     position: relative;
-     top: -750px;
-     left: 550px;
- }
+.logo {
+    width: 180px;
+    height: auto;
+    position: relative;
+}
 
- .logo {
-     width: 110px;
-     position: relative;
-     right: 500px;
-     top: 30px;
- }
+.navbar a {
+    color: #368296;
+    text-decoration: none;
+    left: 555px;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 80px;
+    /* Adjusted padding */
+}
+
+.header-text {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    top: -750px;
+    position: relative;
+    left: 550px;
+}
+
+.vakantie {
+    font-size: 30px;
+    color: #368296;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.retangle {
+    position: relative;
+    top: 100px;
+    padding-left: 100px;
+}
+
+.yacht {
+    top: 150px;
+    position: relative;
+    width: 450px;
+    left: 100px;
+}
+
+.palm {
+    position: relative;
+    width: 280px;
+    top: 180px;
+    left: 200px;
+}

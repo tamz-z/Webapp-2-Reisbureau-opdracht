@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="container" id="signup" style="display">
+    <div class="container" id="signup">
         <h1 class="form-title">Registreer</h1>
         <form method="post" action="">
             <div class="input-group">

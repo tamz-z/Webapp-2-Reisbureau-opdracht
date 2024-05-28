@@ -43,6 +43,7 @@ include "header.php";
         <p> Tijdens uw reis bieden we ondersteuning en bij terugkomst evalueren we samen uw ervaring. </p>
         <p> Onze werkwijze garandeert een zorgeloze en onvergetelijke reis.</p>
     </div>
+    
 </body>
 
 </html>

@@ -4,16 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/sheetstylefooter.css">
-    <title>Footer</title>
+
 </head>
 
-<body class="footerbody">
-    <div class="content">
-        <!-- Your main content goes here -->
-    </div>
+<body>
+
     <footer>
         <div class="footerlijn01"></div>
         <div id="footerflex">
@@ -39,10 +35,11 @@
                     <input class="emailbalk" type="email" name="email" placeholder="Your Email" required>
                 </div>
                 <div class="footerlijn02"></div>
-                <h2> Thank you for Subscribing!</h2>
+                <h2> Thanks you for Subscribing!</h2>
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

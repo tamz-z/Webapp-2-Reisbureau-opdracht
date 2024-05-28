@@ -25,8 +25,10 @@ include "header.php";
     <img src="assets/mountains.png" class="berg">
     <img src="assets/manhattan.png" class="ny">
 
-
     </div>
+    <?php
+    include "footer.php"
+    ?>
 </body>
 
 </html>

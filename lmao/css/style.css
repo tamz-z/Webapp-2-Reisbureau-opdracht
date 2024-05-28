@@ -9,8 +9,6 @@
     font-family: 'Sen', sans-serif;
 }
 
-
-
 .header {
     background-color: white;
     padding: 10px 0;
@@ -33,21 +31,20 @@
 .navbar a {
     color: #368296;
     text-decoration: none;
-    left: 555px;
     position: relative;
     font-size: 15px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    padding-left: 90px;
-    /* Adjusted padding */
+    padding-left: 90px; /* Adjusted padding */
+    left: 590px;
 }
 
 .header-text {
     color: white;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    top: -750px;
     position: relative;
+    top: -750px;
     left: 450px;
 }
 
@@ -67,8 +64,8 @@
 }
 
 .yacht {
-    top: 100px;
     position: relative;
+    top: 100px;
     width: 450px;
     left: 100px;
 }
@@ -111,8 +108,8 @@
     color: #368296;
     font-size: 35px;
     font-weight: bold;
-    top: 250px;
     position: relative;
+    top: 250px;
     left: 90px;
 }
 
@@ -187,17 +184,14 @@
     left: 90px;
 }
 
-.h1 form-title {
-    font-family: 'sen', sans-serif;
-}
-.contact{
+.contact {
     font-size: 40px;
     color: white;
     position: relative;
     top: -400px;
     left: 150px;
-    
 }
+
 .text-3 {
     position: relative;
     top: 200px;

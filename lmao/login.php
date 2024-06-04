@@ -13,7 +13,7 @@
 <body>
     <div class="container" id="signup">
         <h1 class="form-title">Log In</h1>
-        <form method="post" action="">
+        <form method="post" action="index.php">
             <div class="input-group">
                 <i class="fas fa-envelope"></i>
                 <input type="email" name="email" id="email" placeholder="E-Mail" required>
@@ -24,13 +24,16 @@
                 <input type="password" name="password" id="password" placeholder="Wachtwoord" required>
                 <label for="password">Wachtwoord</label>
             </div>
-            <input type="submit" class="btn" value="Log In" name="signUp">
+            <input type="submit" class="btn" value="Log In" name="signIn">
         </form>
         <div class="links">
-            <p>Nog geen account?</p>
-            <button id="sinInButton">Registreer</button>
-        </div>
+    <p>Nog geen account?</p>
+    <a href="register.php"><button id="signInButton">Registreer</button></a>
+</div>
+
+
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

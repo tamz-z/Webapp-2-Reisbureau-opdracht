@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+.footerbody{
+   font-family: 'sen',sans-serif;
+}
 .footerlijn01 {
     height: 3px;
     width: 90%;

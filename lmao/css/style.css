@@ -217,12 +217,15 @@
 }
 .Contact1stehelft{
     width: 50%;
+    position: relative;
+    top: 50px;
 }
 
 .Balkcontact{
     width: 300px;
     height: 30px;
     border-radius: 10px;
+
 }
 .Contact2stehelft{
     display: flex;
@@ -233,7 +236,24 @@
 h4{
     font-size: 40px;
 }
-.Contact2stehelft h2{
-   color: #368296;
-  margin-bottom: 10px;
+
+.contactbutton{
+    background-color: #66b0bd;
+    height: 30px;
+    width: 80px;
+    position: relative;
+    top: 6px;
+    left: 100px;
+border-radius: 10px;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+}
+.contactform label{
+    color: #368296;
+    margin: 3px 0px 8px;
+    font-size: 20px;
+    font-family: 'Sen', sans-serif;
+
 }

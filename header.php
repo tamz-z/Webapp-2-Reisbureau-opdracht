@@ -14,6 +14,7 @@
         <nav class="navbar">
             <img src="assets/vistalogo.png" class="logo">
             <a href="index.php">Home</a>
+            <a href="reizen.php">Boekingen</a>
             <a href="over.php">Over Ons</a>
             <a href="contact.php">Contact</a>
             <a href="login.php">Login</a>

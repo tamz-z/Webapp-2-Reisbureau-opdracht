@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Sen', sans-serif;
     color: #368296;
@@ -40,7 +39,7 @@ body {
     gap: 32px;
 }
 
-.booking .book-form .flex .inputBox {
+.booking .book-form .flex .inputBox{
     flex: 1 1 656px;
 }
 
@@ -53,10 +52,19 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+.booking .book-form .flex .inputBox select {
+    width: 100%;
+    padding: 19.2px 22.4px;
+    font-size: 25.6px;
+    color: #333;
+    margin-top: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
 .booking .book-form .flex .inputBox input:focus {
     background: #e9f6ff;
-    color: #fff;
+    color: #2ac4ff;
 }
 
 .booking .book-form .flex .inputBox span {

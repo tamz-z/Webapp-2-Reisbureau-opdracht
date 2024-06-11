@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Sen', sans-serif;
+    color: #368296;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+.booking {
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+    background-image: url("Webapp-2-Reisbureau-opdracht-main/Reisbureau code/assets/depositphotosbooking.jpg");
+    background-size: cover;
+    height: 1500px;
+}
+
+.booking .heading-title {
+    font-size: 56px;
+    margin-bottom: 20px;
+    color: #46acd0;
+}
+
+.booking .book-form {
+    padding: 32px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 800px;
+    box-shadow: 0 20px 35px rgba(42, 196, 255, 0.3);
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+}
+
+.booking .book-form .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.booking .book-form .flex .inputBox {
+    flex: 1 1 656px;
+}
+
+.booking .book-form .flex .inputBox input {
+    width: 100%;
+    padding: 19.2px 22.4px;
+    font-size: 25.6px;
+    color: #333;
+    margin-top: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking .book-form .flex .inputBox input:focus {
+    background: #ff0000;
+    color: #fff;
+}
+
+.booking .book-form .flex .inputBox span {
+    font-size: 24px;
+    color: #46acd0;
+}
+
+.booking .book-form .btn {
+    margin-top: 32px;
+    font-size: 17.6px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background: #368296;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.booking .book-form .btn:hover {
+    background: #286175;
+}
+
+.success-message {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: green;
+}
+
+@media (max-width: 768px) {
+    .booking .book-form .flex {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .heading-title {
+        font-size: 56px;
+    }
+
+}

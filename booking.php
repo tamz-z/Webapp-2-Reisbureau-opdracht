@@ -62,7 +62,7 @@ if (isset($_POST['send'])) {
     <form action="book_form.php" method="post" class="book-form">
         <div class="flex">
             <div class="inputBox">
-                <span>name :</span>
+                <span>full name :</span>
                 <input type="text" placeholder="enter your name" name="name" required>
             </div>
             <div class="inputBox">
@@ -79,7 +79,13 @@ if (isset($_POST['send'])) {
             </div>
             <div class="inputBox">
                 <span>where to :</span>
-                <input type="text" placeholder="place you want to visit" name="location" required>
+                <select placeholder="place you want to visit" name="location" required>
+                    <option value="Spanje">Spanje</option>
+                    <option value="Griekenland">Griekenland</option>
+                    <option value="Zwitserland">Zwitserland</option>
+                    <option value="Portegal">Portugal</option>
+                    <option value="Turkije">Turkije</option>
+                </select>
             </div>
             <div class="inputBox">
                 <span>how many :</span>

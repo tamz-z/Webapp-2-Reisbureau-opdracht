@@ -55,7 +55,7 @@ body {
 }
 
 .booking .book-form .flex .inputBox input:focus {
-    background: #ff0000;
+    background: #e9f6ff;
     color: #fff;
 }
 
@@ -102,5 +102,4 @@ body {
     .heading-title {
         font-size: 56px;
     }
-
 }

@@ -95,6 +95,99 @@ body {
     font-size: 20px;
     color: green;
 }
+.heading-title{
+position: relative;
+    top: 150px;
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 96px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.btn{
+    display: inline-block;
+    background: #5cc5fd;
+    margin-top: 16px;
+    color: #fff;
+    font-size: 27px;
+    padding: 16px 48px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background: #5da9ff;
+}
+
+.packages .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(592px, 1fr));
+    gap: 32px;
+    justify-items: center;
+    position: relative;
+    top: 100px;
+    padding: 150px;
+   padding-bottom: 300px;
+}
+
+.packages .box-container .box{
+    border: 1px solid #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: none;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.packages .box-container .box:nth-child(1),
+.packages .box-container .box:nth-child(2),
+.packages .box-container .box:nth-child(3),
+.packages .box-container .box:nth-child(4),
+.packages .box-container .box:nth-child(5),
+.packages .box-container .box:nth-child(6){
+    display: inline-block;
+}
+
+.packages .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.packages .box-container .box .image{
+    height: 400px;
+    overflow: hidden;
+}
+
+.packages .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+    border-radius: 10px;
+}
+
+.packages .box-container .box .content{
+    padding: 32px;
+    text-align: center;
+}
+
+.packages .box-container .box .content h3{
+    font-size: 40px;
+    color: #000;
+}
+
+.packages .box-container .box .content p{
+    font-size: 24px;
+    color: #333;
+    line-height: 2;
+    padding: 16px 0;
+}
+
+.packages .load-more{
+    text-align: center;
+    margin-top: 32px;
+}
+
 
 @media (max-width: 768px) {
     .booking .book-form .flex {
@@ -111,3 +204,5 @@ body {
         font-size: 56px;
     }
 }
+
+

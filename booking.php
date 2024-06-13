@@ -54,7 +54,7 @@ if (isset($_POST['send'])) {
 <?php include "header.php"; ?>
 
 <section class="booking">
-    <h1 class="heading-title">book your trip!</h1>
+    <h1 class="heading-title">book nu je vakantie!</h1>
     <?php if (isset($_SESSION['success_message']) && !empty($_SESSION['success_message'])) { ?>
         <div class="success-message"><?php echo $_SESSION['success_message']; ?></div>
         <?php unset($_SESSION['success_message']); ?>
@@ -62,7 +62,7 @@ if (isset($_POST['send'])) {
     <form action="book_form.php" method="post" class="book-form">
         <div class="flex">
             <div class="inputBox">
-                <span>full name :</span>
+                <span>volle name :</span>
                 <input type="text" placeholder="enter your name" name="name" required>
             </div>
             <div class="inputBox">
@@ -70,7 +70,7 @@ if (isset($_POST['send'])) {
                 <input type="email" placeholder="enter your email" name="email" required>
             </div>
             <div class="inputBox">
-                <span>phone :</span>
+                <span>telefoon :</span>
                 <input type="number" placeholder="enter your number" name="phone" required>
             </div>
             <div class="inputBox">
@@ -78,7 +78,7 @@ if (isset($_POST['send'])) {
                 <input type="text" placeholder="enter your address" name="address" required>
             </div>
             <div class="inputBox">
-                <span>where to :</span>
+                <span>waar heen :</span>
                 <select placeholder="place you want to visit" name="location" required>
                     <option value="Spanje">Spanje</option>
                     <option value="Griekenland">Griekenland</option>
@@ -88,15 +88,15 @@ if (isset($_POST['send'])) {
                 </select>
             </div>
             <div class="inputBox">
-                <span>how many :</span>
+                <span>hoe veel :</span>
                 <input type="number" placeholder="number of guests" name="guests" required>
             </div>
             <div class="inputBox">
-                <span>arrivals :</span>
+                <span>aankomst </span>
                 <input type="date" name="arrivals" required>
             </div>
             <div class="inputBox">
-                <span>leaving :</span>
+                <span>vetrek :</span>
                 <input type="date" name="leaving" required>
             </div>
         </div>
@@ -105,6 +105,91 @@ if (isset($_POST['send'])) {
 </section>
 
 <button type="button" class="scroll-top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+<section class="packages">
+    <h1 class="heading-title">top bestemingen</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="assets/spanje%20vakantie.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>spanje Tour </h3>
+                <p>Een vakantie in Spanje</p>
+                <h2>Het biedt een perfecte mix van zonnige stranden, rijke cultuur, heerlijke gastronomie en bruisend nachtleven, ideaal voor een onvergetelijke reiservaring.
+                </h2>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="assets/turkijevakantie.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>turkije</h3>
+                <p>Een vakantie in Turkije</p>
+                <h2>combineert schitterende kustlijnen, eeuwenoude geschiedenis, levendige markten en heerlijke culinaire tradities voor een onvergetelijk avontuur.
+                </h2>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="assets/portugalvakantie.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>portugal</h3>
+                <p>Portugal betovert </p>
+                <h2>reizigers met zijn schilderachtige kustdorpen, rijke geschiedenis, voortreffelijke keuken en warme gastvrijheid, wat zorgt voor een onvergetelijke ervaring.</h2>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="assets/griekenlandvakantie.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Griekenland </h3>
+                <p>Griekenland fascineert </p>
+                <h2>bezoekers met zijn adembenemende eilanden, indrukwekkende oude ruïnes, heerlijke mediterrane keuken en levendige cultuur, wat zorgt voor een onvergetelijke ervaring.</h2>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="assets/Autovakantie-Zwitserland_01_D.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Zwistserland</h3>
+                <p>Zwitserland</p>
+                <h2>biedt bezoekers adembenemende Alpenlandschappen, serene meren, charmante steden en eersteklas ski-resorts, ideaal voor natuurliefhebbers en avonturiers.
+                </h2>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="assets/zweden.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Zweden</h3>
+                <p>Zweden verwelkomt</p>
+                <h2>reizigers met uitgestrekte bossen, kristalheldere meren, kleurrijke steden en een rijke cultuur, wat een onvergetelijke ervaring belooft.                </h2>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+</section>
 
 <?php include "footer.php"; ?>
 

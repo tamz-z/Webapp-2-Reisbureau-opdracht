@@ -14,10 +14,17 @@
         <nav class="navbar">
             <img src="assets/vistalogo.png" class="logo">
             <a href="index.php">Home</a>
-            <a href="reizen.php">Boekingen</a>
+            <a href="booking.php">Boekingen</a>
             <a href="over.php">Over Ons</a>
             <a href="contact.php">Contact</a>
-            <a href="login.php">Login</a>
-            <a href="register.php">Registreer</a>
+            <?php if (isset($_SESSION['email'])) : ?>
+                <a href="index.php?action=logout">Log Out</a>
+            <?php else : ?>
+                <a href="login.php">Login</a>
+                <a href="register.php">Registreer</a>
+            <?php endif; ?>
         </nav>
     </header>
+</body>
+
+</html>

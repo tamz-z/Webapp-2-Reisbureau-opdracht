@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
+
+.header {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #368296;
+    height: 70px;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+    position: relative;
+}
+
+.navbar a {
+    color: #368296;
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 95px;
+    left: 250px;
+}
+
+.header-text {
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -750px;
+    left: 600px;
+}
+
+.review {
+    font-size: 20px;
+    position: relative;
+    top: 2785px;
+    left: 350px;
+}
+
+.trust {
+    position: relative;
+    left: 780px;
+    top: 2750px;
+}
+
+.vakantie {
+    font-size: 30px;
+    color: #368296;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.retangle {
+    position: relative;
+    top: -270px;
+    left: 50px;
+}
+
+.yacht {
+    position: relative;
+    top: 130px;
+    left: -1070px;
+    width: 690px;
+}
+
+.palm {
+    position: relative;
+    top: 190px;
+    left: 50px;
+    width: 550px;
+}
+
+.water {
+    position: relative;
+    top: 290px;
+    left: 800px;
+    width: 400px;
+}
+
+.bali {
+    position: relative;
+    top: -380px;
+    left: 100px;
+}
+
+.cocktail {
+    width: 600px;
+    position: relative;
+    top: -320px;
+    left: 700px;
+}
+
+.retangle2 {
+    position: relative;
+    right: 550px;
+}
+
+.welcome {
+    color: #368296;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: -150px;
+    left: 60px;
+}
+
+.water2 {
+    position: relative;
+    top: -64px;
+    left: 60px;
+}
+
+.berg {
+    position: relative;
+    left: 300px;
+    top: -65px;
+}
+
+.ny {
+    position: relative;
+    left: 560px;
+    top: -65px;
+
+}
+
+
+.explore {
+    font-size: 40px;
+    color: white;
+    font-family: 'Sen', sans-serif;
+    position: relative;
+    top: -450px;
+    left: 50px;
+}
+
+.over {
+    color: #368296;
+    position: relative;
+    font-size: 35px;
+    top: -100px;
+    left: 50px;
+}
+
+.why {
+    position: relative;
+    left: 100px;
+    top: -50px;
+}
+
+.text {
+    position: relative;
+    left: 100px;
+    top: -35px;
+    font-size: 20px;
+}
+
+.voordelen {
+    position: relative;
+    left: 100px;
+    top: 5px;
+}
+
+.text-2 {
+    position: relative;
+    left: 100px;
+    top: 15px;
+    font-size: 20px;
+}
+
+.werkwijze {
+    position: relative;
+    left: 100px;
+    top: 55px;
+}
+
+.text-3 {
+    position: relative;
+    left: 100px;
+    top: 80px;
+    font-size: 20px;
+}
+
+
+.image-kreta {
+    width: 1000px;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}
+
+.heading {
+    font-size: 35px;
+    color: #368296;
+    position: relative;
+    left: 60px;
+    top: -40px;
+
+}
+
+.images-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.container-locatie .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-locatie .box {
+    width: 45%;
+    margin: 10px 0;
+}
+
+.container-locatie .box .image img {
+    width: 100%;
+    height: auto;
+}
+
+.container-locatie .content {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: -200px;
+    left: 50px;
+}
+
+.retangle3 {
+    position: relative;
+    top: -30px;
+    left: 60px;
+}
+
+button {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 26px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #368296;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    top: -150px;
+    left: 10px;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.voordelen-2 {
+    font-size: 30px;
+    position: relative;
+    top: 400px;
+    left: 100px;
+    color: #368296;
+}
+.vinkje{
+    width: 20px;
+    position: relative;
+    top: 460px;
+    left: 100px;
+}

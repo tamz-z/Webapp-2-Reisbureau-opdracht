@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+
+.container {
+    flex: 1;
+}
+
+footer {
+    background: #f1f1f1;
+    padding: 20px 0;
+    min-height: 200px;
+    position: relative;
+}
+.footerlijn01 {
+    height: 3px;
+    width: 90%;
+    background-color: #5392A3;
+    margin: 20px auto;
+}
+
+.footerlijn02 {
+    height: 2px;
+    width: 400px;
+    background-color: #D9D9D9;
+    margin: 10px auto;
+}
+
+.footer1stehelft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 150px;
+}
+
+.footer2stehelft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-right: 150px;
+}
+
+.socialsicon {
+    height: 30px;
+}
+
+#footerflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+#emailgrid {
+    display: flex;
+    gap: 20px;
+}
+
+.emailbalk {
+    border-radius: 20px;
+    height: 30px;
+    position: relative;
+    bottom: 3px;
+}
